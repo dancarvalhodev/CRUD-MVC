@@ -1,0 +1,12 @@
+{
+    "require": {
+        "catfan/medoo": "^1.7",
+        "twbs/bootstrap": "4.5.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "controller\\": "controller",
+            "model\\": "model"
+        }
+    }
+}

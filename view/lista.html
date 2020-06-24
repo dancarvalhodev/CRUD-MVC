@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Lista de Usuarios</title>
+</head>
+<body>
+	<table>
+		<tr>
+			<th>ID</th>
+			<th>Nome</th>
+			<th>Idade</th>
+			<th>Bonitesa</th>
+		</tr>
+		<?php foreach($usuarios as $key => $usu){ ?>
+		<tr>
+				<td><?= $usu['id']?></td>
+				<td><?= $usu['nome']?></td>
+				<td><?= $usu['idade']?></td>
+				<td><?= $usu['bonitesa']?></td>
+		</tr>
+		<?php } ?>
+	</table>
+
+</body>
+</html>
